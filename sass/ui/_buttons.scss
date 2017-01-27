@@ -1,0 +1,15 @@
+.btn{
+  color: $black;
+  width: 139px;
+  height: 70px;
+
+  &:active{
+    color: $blue;
+  }
+
+  &:hover{
+    color: $dark-blue;
+  }
+
+
+}

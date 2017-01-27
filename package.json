@@ -1,0 +1,25 @@
+{
+  "name": "sedona",
+  "version": "1.0.0",
+  "description": "`Sedona Template`",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliettawind/sedona.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliettawind/sedona/issues"
+  },
+  "homepage": "https://github.com/juliettawind/sedona#readme"
+}

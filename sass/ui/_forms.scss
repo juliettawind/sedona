@@ -1,0 +1,39 @@
+.input .form{
+  background-color: $light-light-gray;
+  font-color:$black;
+
+  &:hover{
+  background-color: $gray;
+  }
+
+  &:active{
+    border:2px solid $gray;
+    background-color: $white;
+  }
+
+}
+
+.radiobtn{
+  border-radius: 5px;
+  background-color: $light-light-gray;
+
+
+  &:hover{
+    background-color: $gray;
+
+  }
+
+}
+
+.checkbox{
+  border-radius: 2px;
+  background-color: $light-light-gray;
+
+
+  &:hover{
+    background-color: $gray;
+
+  }
+
+
+}
