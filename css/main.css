@@ -309,16 +309,142 @@ body {
   font-size: 14px;
   font-weight: 700; }
 
+/*$font-stack: 'PT Sans', sans-serif;*/
+.h2, .h3, .h4 {
+  font-family: "din", 'PT Sans', sans-serif; }
+
+.h1 {
+  font-family: "ram",'Ramabhadra', sans-serif; }
+
+.h1 {
+  font-size: 76px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.h2 {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.h3 {
+  font-size: 17px;
+  text-transform: uppercase; }
+
+.h4 {
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.white {
+  color: #ffffff; }
+
+.bg-white {
+  background-color: #ffffff; }
+
+.border-white {
+  border-color: #ffffff; }
+
+.light-gray {
+  color: #eeeeee; }
+
+.bg-light-gray {
+  background-color: #eeeeee; }
+
+.border-light-gray {
+  border-color: #eeeeee; }
+
+.light-blue {
+  color: #81b3d2; }
+
+.bg-light-blue {
+  background-color: #81b3d2; }
+
+.border-light-blue {
+  border-color: #81b3d2; }
+
+.blue {
+  color: #81b3d2; }
+
+.bg-blue {
+  background-color: #81b3d2; }
+
+.border-blue {
+  border-color: #81b3d2; }
+
+.dark-blue {
+  color: #669ec0; }
+
+.bg-dark-blue {
+  background-color: #669ec0; }
+
+.border-dark-blue {
+  border-color: #669ec0; }
+
+.dark-gray {
+  color: #444444; }
+
+.bg-dark-gray {
+  background-color: #444444; }
+
+.border-dark-gray {
+  border-color: #444444; }
+
+.light-light-gray {
+  color: #f2f2f2; }
+
+.bg-light-light-gray {
+  background-color: #f2f2f2; }
+
+.border-light-light-gray {
+  border-color: #f2f2f2; }
+
+.gray {
+  color: #e5e5e5; }
+
+.bg-gray {
+  background-color: #e5e5e5; }
+
+.border-gray {
+  border-color: #e5e5e5; }
+
+.dark-brown {
+  color: #766357; }
+
+.bg-dark-brown {
+  background-color: #766357; }
+
+.border-dark-brown {
+  border-color: #766357; }
+
+.brown {
+  color: #666666; }
+
+.bg-brown {
+  background-color: #666666; }
+
+.border-brown {
+  border-color: #666666; }
+
+.black {
+  color: #000000; }
+
+.bg-black {
+  background-color: #000000; }
+
+.border-black {
+  border-color: #000000; }
+
+.light-black {
+  color: #333333; }
+
+.bg-light-black {
+  background-color: #333333; }
+
+.border-light-black {
+  border-color: #333333; }
+
 nav {
   height: 56px;
   background-color: #ffffff;
-  text-transform: uppercase;
-  /*.index-logo a{
-     margin-left: 68px;
-     padding: 0px;
-     position: absolute;
-     outline : none;
-   }*/ }
+  text-transform: uppercase; }
   nav ul {
     margin: 0;
     padding: 0;
@@ -331,20 +457,52 @@ nav {
       color: #766357; }
     nav li:last-child {
       float: right; }
-  nav a {
-    display: block;
-    padding: 15px 0;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    line-height: 26px; }
-    nav a:hover {
-      color: #81b3d2; }
-  nav .index-logo {
-    background: url(img/index-logo.png);
+    nav li a {
+      display: block;
+      padding: 15px 0;
+      text-align: center;
+      color: #000000;
+      text-decoration: none;
+      line-height: 26px; }
+      nav li a:hover {
+        color: #81b3d2; }
+    nav li .index-logo {
+      background: url(../img/index-logo.png);
+      background-repeat: no-repeat;
+      height: 70px;
+      margin-left: 68px; }
+
+.intro {
+  background: url(../img/slaider.png);
+  background-repeat: no-repeat;
+  height: 509px; }
+  .intro .welcome {
+    height: 86px;
+    background-image: url(../img/welcome.png);
     background-repeat: no-repeat;
-    height: 70px;
-    margin-left: 45px; }
+    width: 256px;
+    position: relative;
+    margin: 0 auto;
+    top: 76px; }
+  .intro .sedona {
+    height: 76px;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 103px;
+    position: relative;
+    top: 78px;
+    right: 138px; }
+  .intro .sucks {
+    height: 80px;
+    width: 296px;
+    background: url(../img/sucks.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    top: 185px; }
+
+.content {
+  color: #ffffff; }
 
 .social {
   background-color: #81b3d2;
@@ -352,11 +510,6 @@ nav {
   height: 70px; }
   .social:hover {
     background-color: #669ec0; }
-
-.intro {
-  background: url(img/slaider.png);
-  background-repeat: no-repeat;
-  height: 509px; }
 
 .input .form {
   background-color: #f2f2f2;

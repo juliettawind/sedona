@@ -11,6 +11,36 @@ $brown: #666666;
 $black: #000000;
 $light-black: #333333;
 
+$color-list: (
+  'white'             $white,
+  'light-gray'        $light-gray,
+  'light-blue'        $light-blue,
+  'blue'              $blue,
+  'dark-blue'         $dark-blue,
+  'dark-gray'         $dark-gray,
+  'light-light-gray'  $light-light-gray,
+  'gray'              $gray,
+  'dark-brown'        $dark-brown,
+  'brown'            $brown,
+  'black'             $black,
+  'light-black'       $light-black
+);
+
+
+//  text color
+@each $value in $color-list {
+  .#{nth($value, 1)} {
+    color: nth($value, 2);
+  }
+
+  .bg-#{nth($value, 1)} {
+    background-color: nth($value, 2);
+  }
+
+  .border-#{nth($value, 1)} {
+    border-color: nth($value, 2);
+  }
+}
 
 
 

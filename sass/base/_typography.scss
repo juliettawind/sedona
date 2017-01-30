@@ -1,1 +1,44 @@
-$font-stack: 'PT Sans', sans-serif;
+/*$font-stack: 'PT Sans', sans-serif;*/
+
+// Размеры шрифта
+$super-size: 76px;
+$alpha-size: 30px;
+$beta-size: 17px;
+$gamma-size: 14px;
+
+
+%din {font-family: "din", 'PT Sans', sans-serif;}
+%ram {font-family: "ram",'Ramabhadra', sans-serif;}
+
+%heading--0 {
+  font-size: $super-size;
+  @extend %ram;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+%heading--1 {
+  font-size: $alpha-size;
+  @extend %din;
+  text-transform: uppercase;
+}
+
+%heading--2 {
+  font-size: $beta-size;
+  @extend %din;
+  text-transform: uppercase;
+}
+
+%heading--3 {
+  font-size: $gamma-size;
+  @extend %din;
+  text-transform: uppercase;
+}
+
+
+.h1{@extend %heading--0;}
+.h2{@extend %heading--1;}
+.h3{@extend %heading--2;}
+.h4{@extend %heading--3;}
+
+
