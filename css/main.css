@@ -310,11 +310,14 @@ body {
   font-weight: 700; }
 
 /*$font-stack: 'PT Sans', sans-serif;*/
-.h2, .h3, .h4 {
+.h2, .h3 {
   font-family: "din", 'PT Sans', sans-serif; }
 
 .h1 {
   font-family: "ram",'Ramabhadra', sans-serif; }
+
+.h4 {
+  font-family: "open",'Open Sans Condensed', sans-serif; }
 
 .h1 {
   font-size: 76px;
@@ -475,7 +478,7 @@ nav {
 .intro {
   background: url(../img/slaider.png);
   background-repeat: no-repeat;
-  height: 509px; }
+  height: 625px; }
   .intro .welcome {
     height: 86px;
     background-image: url(../img/welcome.png);
@@ -502,7 +505,10 @@ nav {
     top: 185px; }
 
 .content {
-  color: #ffffff; }
+  background-color: #ffffff;
+  text-align: center;
+  height: 95px;
+  margin-top: -17px; }
 
 .social {
   background-color: #81b3d2;

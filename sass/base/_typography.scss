@@ -9,6 +9,7 @@ $gamma-size: 14px;
 
 %din {font-family: "din", 'PT Sans', sans-serif;}
 %ram {font-family: "ram",'Ramabhadra', sans-serif;}
+%open {font-family:  "open",'Open Sans Condensed', sans-serif;}
 
 %heading--0 {
   font-size: $super-size;
@@ -31,7 +32,7 @@ $gamma-size: 14px;
 
 %heading--3 {
   font-size: $gamma-size;
-  @extend %din;
+  @extend %open;
   text-transform: uppercase;
 }
 
