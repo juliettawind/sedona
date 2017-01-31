@@ -1,14 +1,28 @@
 .btn{
-  color: $black;
-  width: 139px;
-  height: 70px;
+  width: 457px;
+  height: 54px;
+  color:$white;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 15px;
 
-  &:active{
-    color: $blue;
-  }
+
+
+
+}
+
+
+
+.btnsocial {
+  display: inline-block;
+  padding: 12px 15px;
+  color: #fff;
+  background-color: #81b3d2;
+  width: 45px;
+  height: 45px;
 
   &:hover{
-    color: $dark-blue;
+    background-color: $dark-blue;
   }
 
 

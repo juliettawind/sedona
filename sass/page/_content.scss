@@ -1,7 +1,67 @@
 .content {
-  background-color: $white;
   text-align: center;
-  height: 95px;
-  margin-top: -17px;
+
+
+  section{
+    height: 120px;
+    margin-top: -17px;
+    background-color: $white;
+  }
+
+  .row{
+    margin: 0;
+
+
+
+    .nopadding{
+      padding: 0;
+    }
+
+    .block{
+      padding: 35px 0;
+    }
+
+    .text{
+      padding: 35px 60px;
+
+    }
+
+
+    .to-left {
+      float: left;
+    }
+
+    .to-right{
+      float: right;
+    }
+
+
+
+
+  }
+  .title{
+    background-color: $white;
+    margin:0 auto;
+    text-align: center;
+
+
+  }
+  .maps{
+    height: 473px;
+    background: url(../img/maps.png);
+    background-repeat: no-repeat;
+
+
+
+  }
+
+
+
+
+
+
+
+
+
 
 }

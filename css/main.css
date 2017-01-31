@@ -309,33 +309,6 @@ body {
   font-size: 14px;
   font-weight: 700; }
 
-/*$font-stack: 'PT Sans', sans-serif;*/
-.h2, .h3 {
-  font-family: "din", 'PT Sans', sans-serif; }
-
-.h1 {
-  font-family: "ram",'Ramabhadra', sans-serif; }
-
-.h4 {
-  font-family: "open",'Open Sans Condensed', sans-serif; }
-
-.h1 {
-  font-size: 76px;
-  font-weight: 700;
-  text-transform: uppercase; }
-
-.h2 {
-  font-size: 30px;
-  text-transform: uppercase; }
-
-.h3 {
-  font-size: 17px;
-  text-transform: uppercase; }
-
-.h4 {
-  font-size: 14px;
-  text-transform: uppercase; }
-
 .white {
   color: #ffffff; }
 
@@ -444,6 +417,34 @@ body {
 .border-light-black {
   border-color: #333333; }
 
+/*$font-stack: 'PT Sans', sans-serif;*/
+.h2, .h3 {
+  font-family: "din", 'PT Sans', sans-serif; }
+
+.h1 {
+  font-family: "ram",'Ramabhadra', sans-serif; }
+
+.h4 {
+  font-family: "open",'Open Sans', sans-serif; }
+
+.h1 {
+  font-size: 76px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.h2 {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 17px; }
+
+.h4 {
+  font-size: 12px;
+  text-transform: uppercase; }
+
 nav {
   height: 56px;
   background-color: #ffffff;
@@ -478,7 +479,7 @@ nav {
 .intro {
   background: url(../img/slaider.png);
   background-repeat: no-repeat;
-  height: 625px; }
+  height: 569px; }
   .intro .welcome {
     height: 86px;
     background-image: url(../img/welcome.png);
@@ -486,7 +487,7 @@ nav {
     width: 256px;
     position: relative;
     margin: 0 auto;
-    top: 76px; }
+    top: 77px; }
   .intro .sedona {
     height: 76px;
     width: 150px;
@@ -502,20 +503,59 @@ nav {
     background-repeat: no-repeat;
     margin: 0 auto;
     position: relative;
-    top: 185px; }
+    top: 187px; }
 
 .content {
-  background-color: #ffffff;
-  text-align: center;
-  height: 95px;
-  margin-top: -17px; }
+  text-align: center; }
+  .content section {
+    height: 120px;
+    margin-top: -17px;
+    background-color: #ffffff; }
+  .content .row {
+    margin: 0; }
+    .content .row .nopadding {
+      padding: 0; }
+    .content .row .block {
+      padding: 35px 0; }
+    .content .row .text {
+      padding: 35px 60px; }
+    .content .row .to-left {
+      float: left; }
+    .content .row .to-right {
+      float: right; }
+  .content .title {
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center; }
+  .content .maps {
+    height: 473px;
+    background: url(../img/maps.png);
+    background-repeat: no-repeat; }
 
-.social {
-  background-color: #81b3d2;
-  width: 139px;
-  height: 70px; }
-  .social:hover {
-    background-color: #669ec0; }
+footer {
+  height: 120px;
+  background: url(../img/mapsend.png); }
+  footer .bg-footer {
+    height: 120px;
+    opacity: 0.88;
+    background-color: #ffffff;
+    margin: 0;
+    text-align: center; }
+    footer .bg-footer .name-footer {
+      margin: 50px auto; }
+    footer .bg-footer .social {
+      margin: 34px auto; }
+    footer .bg-footer .copyright {
+      margin: 42px auto; }
+      footer .bg-footer .copyright span {
+        margin-left: 83px; }
+      footer .bg-footer .copyright a {
+        height: 39px;
+        width: 113px;
+        float: right;
+        margin-right: 83px; }
+        footer .bg-footer .copyright a:hover {
+          background-color: #669ec0; }
 
 .input .form {
   background-color: #f2f2f2;
@@ -539,10 +579,19 @@ nav {
     background-color: #e5e5e5; }
 
 .btn {
-  color: #000000;
-  width: 139px;
-  height: 70px; }
-  .btn:active {
-    color: #81b3d2; }
-  .btn:hover {
-    color: #669ec0; }
+  width: 457px;
+  height: 54px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 15px; }
+
+.btnsocial {
+  display: inline-block;
+  padding: 12px 15px;
+  color: #fff;
+  background-color: #81b3d2;
+  width: 45px;
+  height: 45px; }
+  .btnsocial:hover {
+    background-color: #669ec0; }
