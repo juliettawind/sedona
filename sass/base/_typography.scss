@@ -3,7 +3,7 @@
 // Размеры шрифта
 $super-size: 76px;
 $alpha-size: 30px;
-$beta-size: 17px;
+$beta-size: 21px;
 $gamma-size: 12px;
 
 
@@ -28,7 +28,7 @@ $gamma-size: 12px;
   font-size: $beta-size;
   @extend %din;
   text-transform: uppercase;
-  line-height: 17px;
+  line-height: 24px;
 }
 
 %heading--3 {

@@ -437,9 +437,9 @@ body {
   text-transform: uppercase; }
 
 .h3 {
-  font-size: 17px;
+  font-size: 21px;
   text-transform: uppercase;
-  line-height: 17px; }
+  line-height: 24px; }
 
 .h4 {
   font-size: 12px;
@@ -511,6 +511,9 @@ nav {
     height: 120px;
     margin-top: -17px;
     background-color: #ffffff; }
+    .content section .addmargin {
+      margin-left: 3px;
+      margin-top: 17px; }
   .content .row {
     margin: 0; }
     .content .row .nopadding {
