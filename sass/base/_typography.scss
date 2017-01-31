@@ -4,7 +4,7 @@
 $super-size: 76px;
 $alpha-size: 30px;
 $beta-size: 21px;
-$gamma-size: 12px;
+$gamma-size: 14px;
 
 
 %din {font-family: "din", 'PT Sans', sans-serif;}
@@ -33,7 +33,7 @@ $gamma-size: 12px;
 
 %heading--3 {
   font-size: $gamma-size;
-  @extend %open;
+  @extend %din;
   text-transform: uppercase;
 }
 

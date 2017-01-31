@@ -3,14 +3,28 @@
 
 
   section{
-    height: 120px;
     margin-top: -17px;
     background-color: $white;
+    height: 155px;
+    width: 1200px;
 
     .addmargin{
       margin-left: 3px;
       margin-top: 17px;
+      line-height: 26px;
     }
+
+    .styleP{
+      padding-top: 13px;
+      margin-left: 1px;
+      /*font-size:14px;*/
+      line-height: 14px;
+      /*font-family: "din", 'PT Sans', sans-serif;*/
+    }
+
+
+
+
   }
 
   .row{
@@ -23,41 +37,132 @@
     }
 
     .block{
-      padding: 35px 0;
+      padding: 68px 0;
+
+      .blockwhite{
+        padding-top: 2px;
+        line-height: 21px;
+        /*font-family: "din", 'PT Sans', sans-serif;
+        font-size: 14px;*/
+        margin-left: 4px;
+      }
     }
 
-    .text{
-      padding: 35px 60px;
+    .text {
+      padding-left: 6px;
+      margin: 54px 40px 0 40px;
+    }
+    .stylenumverP {
+      margin-right: -3px;
+      padding-top: 12px;
+      line-height: 14px;
+      /*font-family: "din", 'PT Sans', sans-serif;
+      font-size: 14px;*/
+    }
+
+    .styleP {
+      padding-top: 13px;
+      margin-left: 4px;
+      /*font-size: 14px;*/
+      line-height: 16px;
+      /*font-family: "din", 'PT Sans', sans-serif;*/
+    }
+
+
+    .to-right{
+      float: right;
+
+        .stylenumverP{
+          margin-right: -3px;
+          padding-top: 12px;
+          line-height: 14px;
+          /*font-family: "din", 'PT Sans', sans-serif;
+          font-size: 14px;*/
+        }
+
+        .styleP{
+          padding-top: 13px;
+          margin-left: 4px;
+          /*font-size: 14px;*/
+          line-height: 16px;
+          /*font-family: "din", 'PT Sans', sans-serif;*/
+        }
+
 
     }
 
 
     .to-left {
-      float: left;
+
+
+      .styleP{
+        padding-top: 13px;
+        margin-left: 1px;
+        /*font-size:14px;*/
+        line-height: 14px;
+        /*font-family: "din", 'PT Sans', sans-serif;*/
+      }
     }
 
-    .to-right{
-      float: right;
+    .title{
+      margin-left: 3px;
+      margin-top: 54px;
+      line-height: 28px;
+
     }
 
-
+    .titleP {
+      padding-top: 1px;
+      margin-left: 8px;
+      font-size: 14px;
+    }
 
 
   }
-  .title{
-    background-color: $white;
-    margin:0 auto;
-    text-align: center;
 
+  .blockstyle{
+    padding: 42px 0;
+
+    p{
+      margin: 3px 0 22px 2px;
+    }
+  }
+
+  .blockstylenumverP{
+    margin-right: -1px;
+    padding-top: 4px;
+    line-height: 14px;
+    /*font-family: "din", 'PT Sans', sans-serif;
+    font-size: 14px;*/
+  }
+  .blockstyleP{
+    padding-top: 5px;
+    /*margin-left: 1px;*/
+    /*font-size: 14px;*/
+    line-height: 16px;
+    font-family: "open",'Open Sans', sans-serif;
+  }
+
+  /*.title{
+    margin-left: 3px;
+    margin-top: 54px;
+    line-height: 28px;
 
   }
+
+  .titleP {
+
+  }*/
+
+
+
+
+
+
   .maps{
     height: 473px;
     background: url(../img/maps.png);
     background-repeat: no-repeat;
-
-
-
   }
 
 
