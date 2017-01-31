@@ -12,32 +12,38 @@ footer {
 
 
 
-    .name-footer{
-      margin: 50px auto;
+        .name-footer{
+          margin: 47px auto;
 
-    }
-    .social {
-      margin: 34px auto;
-
-
-    }
-    .copyright{
-      margin: 42px auto;
-
-      span{
-        margin-left: 83px;
-      }
-
-      a{
-        height: 39px;
-        width: 113px;
-        float: right;
-        margin-right: 83px;
-
-        &:hover{
-          background-color: $dark-blue;
         }
-      }
-    }
+
+        .social {
+          margin: 36px auto;
+
+        }
+
+        .copyright{
+          float: right;
+
+            .name{
+              margin-top: 45px;
+              line-height: 29px;
+              margin-right: 117px;
+            }
+
+
+            a{
+              height: 39px;
+              width: 113px;
+              float: right;
+              margin-left: -74px;
+              margin-top: -47px;
+              margin-right: 82px;
+
+              &:hover{
+                background-color: $dark-blue;
+              }
+            }
+        }
   }
 }

@@ -583,7 +583,7 @@ nav {
     .content .row .titleP {
       padding-top: 1px;
       margin-left: 8px;
-      font-size: 14px; }
+      /*font-size: 14px;*/ }
   .content .blockstyle {
     padding: 42px 0; }
     .content .blockstyle p {
@@ -615,18 +615,22 @@ footer {
     margin: 0;
     text-align: center; }
     footer .bg-footer .name-footer {
-      margin: 50px auto; }
+      margin: 47px auto; }
     footer .bg-footer .social {
-      margin: 34px auto; }
+      margin: 36px auto; }
     footer .bg-footer .copyright {
-      margin: 42px auto; }
-      footer .bg-footer .copyright span {
-        margin-left: 83px; }
+      float: right; }
+      footer .bg-footer .copyright .name {
+        margin-top: 45px;
+        line-height: 29px;
+        margin-right: 117px; }
       footer .bg-footer .copyright a {
         height: 39px;
         width: 113px;
         float: right;
-        margin-right: 83px; }
+        margin-left: -74px;
+        margin-top: -47px;
+        margin-right: 82px; }
         footer .bg-footer .copyright a:hover {
           background-color: #669ec0; }
 
@@ -665,7 +669,8 @@ footer {
   padding: 12px 15px;
   color: #fff;
   background-color: #81b3d2;
-  width: 45px;
-  height: 45px; }
+  width: 46px;
+  height: 48px;
+  margin: 0 1px; }
   .btnsocial:hover {
     background-color: #669ec0; }

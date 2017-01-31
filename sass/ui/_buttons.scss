@@ -19,9 +19,10 @@
   display: inline-block;
   padding: 12px 15px;
   color: #fff;
-  background-color: #81b3d2;
-  width: 45px;
-  height: 45px;
+  background-color: $blue;
+  width: 46px;
+  height: 48px;
+  margin: 0 1px;
 
   &:hover{
     background-color: $dark-blue;
