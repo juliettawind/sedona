@@ -13,6 +13,8 @@ nav {
             display: inline-block;
             vertical-align: top;
             width: 19%;
+            margin-left: 8px;
+            font-size: 14px;
 
             &:active {
               color:$dark-brown;
@@ -40,7 +42,7 @@ nav {
               background: url(../img/index-logo.png);
               background-repeat: no-repeat;
               height: 70px;
-              margin-left: 68px;
+              margin-left: 45px;
             }
 
           }

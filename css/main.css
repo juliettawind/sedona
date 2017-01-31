@@ -440,7 +440,8 @@ body {
 
 .h4 {
   font-size: 14px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 400; }
 
 nav {
   height: 56px;
@@ -453,7 +454,9 @@ nav {
   nav li {
     display: inline-block;
     vertical-align: top;
-    width: 19%; }
+    width: 19%;
+    margin-left: 8px;
+    font-size: 14px; }
     nav li:active {
       color: #766357; }
     nav li:last-child {
@@ -471,7 +474,7 @@ nav {
       background: url(../img/index-logo.png);
       background-repeat: no-repeat;
       height: 70px;
-      margin-left: 68px; }
+      margin-left: 45px; }
 
 .intro {
   background: url(../img/slaider.png);
@@ -503,32 +506,20 @@ nav {
     top: 187px; }
 
 .content {
-  text-align: center;
-  /*.title{
-    margin-left: 3px;
-    margin-top: 54px;
-    line-height: 28px;
-
-  }
-
-  .titleP {
-
-  }*/ }
+  text-align: center; }
   .content section {
     margin-top: -17px;
     background-color: #ffffff;
     height: 155px;
     width: 1200px; }
     .content section .addmargin {
-      margin-left: 3px;
-      margin-top: 17px;
+      margin-left: 5px;
+      margin-top: 16px;
       line-height: 26px; }
     .content section .styleP {
       padding-top: 13px;
-      margin-left: 1px;
-      /*font-size:14px;*/
-      line-height: 14px;
-      /*font-family: "din", 'PT Sans', sans-serif;*/ }
+      margin-left: 5px;
+      line-height: 10px; }
   .content .row {
     margin: 0; }
     .content .row .nopadding {
@@ -538,8 +529,6 @@ nav {
       .content .row .block .blockwhite {
         padding-top: 2px;
         line-height: 21px;
-        /*font-family: "din", 'PT Sans', sans-serif;
-        font-size: 14px;*/
         margin-left: 4px; }
     .content .row .text {
       padding-left: 6px;
@@ -547,43 +536,32 @@ nav {
     .content .row .stylenumverP {
       margin-right: -3px;
       padding-top: 12px;
-      line-height: 14px;
-      /*font-family: "din", 'PT Sans', sans-serif;
-      font-size: 14px;*/ }
+      line-height: 14px; }
     .content .row .styleP {
       padding-top: 13px;
       margin-left: 4px;
-      /*font-size: 14px;*/
-      line-height: 16px;
-      /*font-family: "din", 'PT Sans', sans-serif;*/ }
+      line-height: 16px; }
     .content .row .to-right {
       float: right; }
       .content .row .to-right .stylenumverP {
         margin-right: -3px;
         padding-top: 12px;
-        line-height: 14px;
-        /*font-family: "din", 'PT Sans', sans-serif;
-          font-size: 14px;*/ }
+        line-height: 14px; }
       .content .row .to-right .styleP {
         padding-top: 13px;
         margin-left: 4px;
-        /*font-size: 14px;*/
-        line-height: 16px;
-        /*font-family: "din", 'PT Sans', sans-serif;*/ }
+        line-height: 16px; }
     .content .row .to-left .styleP {
       padding-top: 13px;
       margin-left: 1px;
-      /*font-size:14px;*/
-      line-height: 14px;
-      /*font-family: "din", 'PT Sans', sans-serif;*/ }
+      line-height: 14px; }
     .content .row .title {
       margin-left: 3px;
       margin-top: 54px;
       line-height: 28px; }
     .content .row .titleP {
       padding-top: 1px;
-      margin-left: 8px;
-      /*font-size: 14px;*/ }
+      margin-left: 8px; }
   .content .blockstyle {
     padding: 42px 0; }
     .content .blockstyle p {
@@ -591,13 +569,9 @@ nav {
   .content .blockstylenumverP {
     margin-right: -1px;
     padding-top: 4px;
-    line-height: 14px;
-    /*font-family: "din", 'PT Sans', sans-serif;
-    font-size: 14px;*/ }
+    line-height: 14px; }
   .content .blockstyleP {
     padding-top: 5px;
-    /*margin-left: 1px;*/
-    /*font-size: 14px;*/
     line-height: 16px;
     font-family: "open",'Open Sans', sans-serif; }
   .content .maps {
