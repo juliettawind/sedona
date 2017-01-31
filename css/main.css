@@ -456,7 +456,8 @@ nav {
     vertical-align: top;
     width: 19%;
     margin-left: 8px;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: 700; }
     nav li:active {
       color: #766357; }
     nav li:last-child {
