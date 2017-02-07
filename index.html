@@ -95,13 +95,48 @@
                     </div>
                 </div>
 
-                <div class="row bg-white">
+                <div class="row bg-white choose-hotel">
                     <p class="h2 black title">ЗАИНТЕРЕСОВАЛИСЬ?</p>
                     <p class="h4 light-black titleP">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-                    <p class="btn bg-dark-brown" type="button">Поиск гостиницы в седоне</p>
+                    <p class="btn bg-dark-brown btn-order" type="button">Поиск гостиницы в седоне</p>
+
+                    <div class="popup-form">
+                        <form class="form" method="post" action="/search">
+                            <fieldset class="form-row">
+                                <label for="date-in" class="to-left h4">Дата заезда:</label>
+                                <input id="date-in" class="date-in to-rights h4" type="date" value="2014-04-24"/>
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </fieldset>
+                            <fieldset class="form-row">
+                                <label for="date-out" class="to-left h4">Дата выезда:</label>
+                                <input id="date-out" class="date-out to-rights h4" type="date" value="2014-07-04"/>
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </fieldset>
+                            <fieldset class="counter form-row">
+                                <fieldset class="counter">
+                                    <label for="counter-adult" class="to-left h4">Взрослые:</label>
+                                    <button class="icon-minus h4" type="button" tabindex="-1"></button>
+                                    <input class="to-right-counter to-rights h4" type="text" name="counter-adult" id="counter-adult" value="2">
+                                    <button class="icon-plus h4" type="button" tabindex="-1"></button>
+                                </fieldset>
+                                <fieldset class="counter">
+                                    <label for="counter-children" class="to-left h4 addmargins">Дети:</label>
+                                    <button class="icon-minus h4" type="button" tabindex="-1"></button>
+                                    <input class="to-right-counter to-rights h4" type="text" name="counter-children" id="counter-children" value="0">
+                                    <button class="icon-plus h4" type="button" tabindex="-1"></button>
+                                </fieldset>
+                            </fieldset>
+                            <input class="btn-search h3" type="submit" value="Найти">
+                        </form>
+                    </div>
+
                 </div>
 
+
+
                 <div class="row maps"></div>
+
+
             </div>
 
             <footer>

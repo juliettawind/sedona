@@ -1,17 +1,136 @@
-.input .form{
-  background-color: $light-light-gray;
-  font-color:$black;
+.popup-form{
+  position: absolute;
+  left: 0px;
+  right: 0;
+  z-index: 1;
+  background: $white;
+  box-shadow: 0 7px 30px 0 $brown;
 
-  &:hover{
-  background-color: $gray;
-  }
 
-  &:active{
-    border:2px solid $gray;
-    background-color: $white;
-  }
+
+      .form{
+        margin:55px;
+
+          .form-row{
+            position: relative;
+            margin:0 0 30px 0;
+            padding: 0;
+            text-align: left;
+            border:none;
+            font-size: 0;
+
+
+
+                .to-left{
+                  display: inline-block;
+                  width: 115px;
+                  line-height:41px;
+                  font-weight: 700;
+                }
+
+                .to-rights{
+                  display: inline-block;
+                  width: 343px;
+                  background: $light-light-gray;
+                  padding: 8px 38px 8px 8px;
+                  border:2px solid $light-light-gray;
+                  outline: none;
+                  line-height: 18px;
+                  font-weight: 700;
+
+
+
+                  &:hover{
+                  background-color: $very-light-gray;
+                }
+
+
+                }
+
+                .fa-calendar{
+                  color: $light-light-gray;
+                  position: absolute;
+                  right:0;
+                  top:0;
+
+                  &:hover{
+                    background-color: $black;
+                  }
+                }
+
+                .counter{
+                  display: inline-block;
+                  margin:0;
+                  padding: 0;
+                  border:none;
+                  font-size: 0;
+
+                    .addmargins{
+                      margin-left: 50px;
+                      width: 65px;
+                    }
+                    .to-right-counter{
+                      width: 38px;
+                      padding: 8px 0;
+                      text-align: center;
+
+                      .to-right-counter::before{
+                        content: '\f068';
+                      }
+                    }
+
+                    button{
+                      display: inline-block;
+                      padding: 14px;
+                      outline: none;
+                      color:$very-dark-gray;
+                      border:none;
+                      background-color: $light-light-gray;
+                      cursor: pointer;
+                      width: 38px;
+                      height: 38px;
+
+                      &::before{
+                        content: '\f068';
+                        display: block;
+                        margin: -14px;
+                        font-size: 14px;
+                        line-height: 38px;
+                        font-family: FontAwesome;
+                      }
+
+                      /*&::before{content: '\f067';}*/
+
+                    }
+
+
+                  }
+
+
+
+              .input {
+                background-color: $light-light-gray;
+                font-color:$black;
+
+                &:hover{
+                  background-color: $gray;
+                }
+
+                &:active{
+                  border:2px solid $gray;
+                  background-color: $white;
+                }
+
+              }
+          }
+      }
+
+
+
 
 }
+
+
 
 .radiobtn{
   border-radius: 5px;
@@ -37,3 +156,4 @@
 
 
 }
+

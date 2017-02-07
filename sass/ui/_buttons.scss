@@ -30,3 +30,29 @@
 
 
 }
+.btn-order{
+  position:relative;
+  z-index: 2;
+  display: block;
+  width: 568px;
+  text-align: center;
+
+  &:hover{
+    background-color: $very-dark-brown;
+
+  }
+}
+
+.btn-search{
+  width: 456px;
+  height: 58px;
+  background-color: $light-blue;
+  text-transform: uppercase;
+  color: $white;
+  margin-top: 54px;
+
+  &:hover{
+    background-color: $dark-blue;
+
+  }
+}

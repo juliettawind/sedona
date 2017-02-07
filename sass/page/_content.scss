@@ -1,5 +1,6 @@
 .content {
   text-align: center;
+  background-color: white;
 
 
   section{
@@ -133,6 +134,13 @@
     font-family: "open",'Open Sans', sans-serif;
   }
 
+  .choose-hotel{
+    position: relative;
+    z-index: 1;
+    width:568px;
+    margin:0 auto;
+    text-align: center;
+  }
 
   .maps{
     height: 473px;
