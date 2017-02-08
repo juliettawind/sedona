@@ -641,6 +641,12 @@ footer {
       text-align: left;
       border: none;
       font-size: 0; }
+      .popup-form .form .form-row .date-in:after, .popup-form .form .form-row .date-out:after {
+        font-family: 'FontAwesome';
+        color: #a9a9a9;
+        position: relative;
+        left: 25px;
+        content: "\f073"; }
       .popup-form .form .form-row .to-left {
         display: inline-block;
         width: 115px;
@@ -657,13 +663,6 @@ footer {
         font-weight: 700; }
         .popup-form .form .form-row .to-rights:hover {
           background-color: #f0f0f0; }
-      .popup-form .form .form-row .fa-calendar {
-        color: #f2f2f2;
-        position: absolute;
-        right: 0;
-        top: 0; }
-        .popup-form .form .form-row .fa-calendar:hover {
-          background-color: #000000; }
       .popup-form .form .form-row .counter {
         display: inline-block;
         margin: 0;
@@ -691,12 +690,15 @@ footer {
           height: 38px;
           /*&::before{content: '\f067';}*/ }
           .popup-form .form .form-row .counter button::before {
-            content: '\f068';
             display: block;
             margin: -14px;
             font-size: 14px;
             line-height: 38px;
             font-family: FontAwesome; }
+        .popup-form .form .form-row .counter .icon-plus::before {
+          content: '\f067'; }
+        .popup-form .form .form-row .counter .icon-minus::before {
+          content: '\f068'; }
       .popup-form .form .form-row .input {
         background-color: #f2f2f2;
         font-color: #000000; }
