@@ -2,19 +2,19 @@
   text-align: center;
   background-color: white;
 
-  section{
+  section {
     margin-top: -17px;
     background-color: $white;
     height: 155px;
     width: 1200px;
 
-    .addmargin{
+    .addmargin {
       margin-left: 5px;
       margin-top: 16px;
       line-height: 26px;
     }
 
-    .styleP{
+    .styleP {
       padding-top: 13px;
       margin-left: 5px;
       line-height: 10px;
@@ -22,17 +22,17 @@
 
   }
 
-  .row{
+  .row {
     margin: 0;
 
-    .nopadding{
+    .nopadding {
       padding: 0;
     }
 
-    .block{
+    .block {
       padding: 68px 0;
 
-      .blockwhite{
+      .blockwhite {
         padding-top: 2px;
         line-height: 21px;
         margin-left: 4px;
@@ -56,31 +56,30 @@
 
     }
 
-
-    .to-right{
+    .to-right {
       float: right;
-        .stylenumverP{
-          margin-right: -3px;
-          padding-top: 12px;
-          line-height: 14px;
-        }
+      .stylenumverP {
+        margin-right: -3px;
+        padding-top: 12px;
+        line-height: 14px;
+      }
 
-        .styleP{
-          padding-top: 13px;
-          margin-left: 4px;
-          line-height: 16px;
-        }
+      .styleP {
+        padding-top: 13px;
+        margin-left: 4px;
+        line-height: 16px;
+      }
     }
 
     .to-left {
-      .styleP{
+      .styleP {
         padding-top: 13px;
         margin-left: 1px;
         line-height: 14px;
       }
     }
 
-    .title{
+    .title {
       margin-left: 3px;
       margin-top: 54px;
       line-height: 28px;
@@ -93,32 +92,35 @@
     }
   }
 
-  .blockstyle{padding: 42px 0;
-      p{margin: 3px 0 22px 2px;}
+  .blockstyle {
+    padding: 42px 0;
+    p {
+      margin: 3px 0 22px 2px;
+    }
   }
 
-  .blockstylenumverP{
+  .blockstylenumverP {
     margin-right: -1px;
     padding-top: 4px;
     line-height: 14px;
 
   }
-  .blockstyleP{
+  .blockstyleP {
     padding-top: 5px;
 
     line-height: 16px;
-    font-family: "open",'Open Sans', sans-serif;
+    font-family: "open", 'Open Sans', sans-serif;
   }
 
-  .choose-hotel{
+  .choose-hotel {
     position: relative;
     z-index: 1;
-    width:568px;
-    margin:0 auto;
+    width: 568px;
+    margin: 0 auto;
     text-align: center;
   }
 
-  .maps{
+  .maps {
     height: 473px;
     background: url(../img/maps.png);
     background-repeat: no-repeat;
@@ -126,66 +128,47 @@
 
   /*Фото и Видео*/
   .transparency {
-        .one {
-          margin-top: 319px;
+    .one {
+      margin-top: 319px;
+    }
+    .three {
+      margin-top: 187px;
+    }
+    .transparency-bg-img {
+      background: $black;
+      opacity: 0.52;
+      height: 80px;
+      position: absolute;
+      width: 100%;
+      .info_img {
+        color: $white;
+        .boldfont {
+          font-weight: 900;
+          float: left;
         }
-        .three{
-          margin-top: 187px;
-        }
-        .transparency-bg-img {
-          background: $black;
-          opacity: 0.52;
-          height: 80px;
+        .nouppercase {
+          text-transform: none;
+          float: left;
+          margin-top: 35px;
           position: absolute;
-          width: 100%;
-          .info_img {
-            color: $white;
-            .boldfont {
-              font-weight: 900;
-              float: left;
-            }
-            .nouppercase {
-              text-transform: none;
-              float: left;
-              margin-top: 35px;
-              position: absolute;
-            }
-          }
-
-          .like {
-            color: $white;
-            width:110px;
-
-            i {
-              margin-top: 26px;
-              float: left;
-            }
-            p {
-              margin-top: 31px;
-            }
-          }
         }
+      }
+
+      .like {
+        color: $white;
+        width: 110px;
+
+        i {
+          margin-top: 26px;
+          float: left;
+        }
+        p {
+          margin-top: 31px;
+        }
+      }
+    }
   }
-
-
 
 }
-
-
-  /*transparency-three_block{
-    background: #333333;
-    height:80px;
-    position: absolute;
-
-
-
-  }
-  .three_block{
-    opacity: 0.52;
-    margin-top: 187px;
-    width: 400px;
-
-  }*/
-
 
 

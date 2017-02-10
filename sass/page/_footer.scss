@@ -2,52 +2,49 @@ footer {
   height: 120px;
   background: url(../img/mapsend.png);
 
-
-  .bg-footer{
+  .bg-footer {
     height: 120px;
     opacity: 0.88;
     background-color: $white;
     margin: 0;
     text-align: center;
 
+    .name-footer {
+      margin: 47px auto;
 
+    }
 
-        .name-footer{
-          margin: 47px auto;
+    .social {
+      margin: 36px auto;
 
+    }
+
+    .copyright {
+      float: right;
+
+      .name {
+        margin-top: 45px;
+        line-height: 29px;
+        margin-right: 117px;
+      }
+
+      a {
+        height: 39px;
+        width: 113px;
+        float: right;
+        margin-left: -74px;
+        margin-top: -47px;
+        margin-right: 82px;
+
+        &:hover {
+          background-color: $dark-blue;
         }
-
-        .social {
-          margin: 36px auto;
-
-        }
-
-        .copyright{
-          float: right;
-
-            .name{
-              margin-top: 45px;
-              line-height: 29px;
-              margin-right: 117px;
-            }
-
-
-            a{
-              height: 39px;
-              width: 113px;
-              float: right;
-              margin-left: -74px;
-              margin-top: -47px;
-              margin-right: 82px;
-
-              &:hover{
-                background-color: $dark-blue;
-              }
-            }
-        }
+      }
+    }
   }
 
 }
-.footerpagephoto{
+
+.footerpagephoto {
   background: $white;
 }

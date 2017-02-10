@@ -3,90 +3,90 @@ nav {
   background-color: $white;
   text-transform: uppercase;
 
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    vertical-align: top;
+    width: 19%;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 700;
+
+    &:active {
+      color: $dark-brown;
+    }
+
+    &:last-child {
+      float: right;
+    }
+
+    a {
+      display: block;
+      padding: 15px 0;
+      text-align: center;
+      color: $black;
+      text-decoration: none;
+      line-height: 26px;
+
+      &:hover {
+        color: $light-blue;
       }
 
-          li {
-            display: inline-block;
-            vertical-align: top;
-            width: 19%;
-            margin-left: 8px;
-            font-size: 14px;
-            font-weight: 700;
+    }
 
-            &:active {
-              color:$dark-brown;
-            }
+    .index-logo {
+      background: url(../img/index-logo.png);
+      background-repeat: no-repeat;
+      height: 70px;
+      margin-left: 45px;
+    }
 
-            &:last-child{
-              float: right;
-            }
-
-            a {
-              display: block;
-              padding: 15px 0;
-              text-align: center;
-              color: $black;
-              text-decoration: none;
-              line-height: 26px;
-
-              &:hover{
-                color: $light-blue;
-              }
-
-            }
-
-            .index-logo {
-              background: url(../img/index-logo.png);
-              background-repeat: no-repeat;
-              height: 70px;
-              margin-left: 45px;
-            }
-
-          }
+  }
 
 }
 
-.intro{
+.intro {
   background: url(../img/slaider.png);
   background-repeat: no-repeat;
   height: 569px;
 
-      .welcome{
-        height: 86px;
-        background-image: url(../img/welcome.png);
-        background-repeat: no-repeat;
-        width: 256px;
-        position: relative;
-        margin: 0 auto;
-        top: 77px;
-      }
+  .welcome {
+    height: 86px;
+    background-image: url(../img/welcome.png);
+    background-repeat: no-repeat;
+    width: 256px;
+    position: relative;
+    margin: 0 auto;
+    top: 77px;
+  }
 
-      .sedona{
-        height: 76px;
-        width: 150px;
-        margin: 0 auto;
-        font-size: 103px;
-        position: relative;
-        top: 78px;
-        right: 138px;
-      }
+  .sedona {
+    height: 76px;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 103px;
+    position: relative;
+    top: 78px;
+    right: 138px;
+  }
 
-      .sucks{
-        height: 80px;
-        width: 296px;
-        background: url(../img/sucks.png);
-        background-repeat: no-repeat;
-        margin: 0 auto;
-        position: relative;
-        top: 187px;
-      }
-
+  .sucks {
+    height: 80px;
+    width: 296px;
+    background: url(../img/sucks.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    top: 187px;
+  }
 
 }
+
 .pagephoto {
   background: url(../img/slaider_pagephoto.png);
   background-repeat: no-repeat;
