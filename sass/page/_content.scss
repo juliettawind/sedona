@@ -2,7 +2,6 @@
   text-align: center;
   background-color: white;
 
-
   section{
     margin-top: -17px;
     background-color: $white;
@@ -19,18 +18,12 @@
       padding-top: 13px;
       margin-left: 5px;
       line-height: 10px;
-
     }
-
-
-
 
   }
 
   .row{
     margin: 0;
-
-
 
     .nopadding{
       padding: 0;
@@ -54,7 +47,6 @@
       margin-right: -3px;
       padding-top: 12px;
       line-height: 14px;
-
     }
 
     .styleP {
@@ -67,33 +59,24 @@
 
     .to-right{
       float: right;
-
         .stylenumverP{
           margin-right: -3px;
           padding-top: 12px;
           line-height: 14px;
-
         }
 
         .styleP{
           padding-top: 13px;
           margin-left: 4px;
           line-height: 16px;
-
         }
-
-
     }
 
-
     .to-left {
-
-
       .styleP{
         padding-top: 13px;
         margin-left: 1px;
         line-height: 14px;
-
       }
     }
 
@@ -107,18 +90,11 @@
     .titleP {
       padding-top: 1px;
       margin-left: 8px;
-
     }
-
-
   }
 
-  .blockstyle{
-    padding: 42px 0;
-
-    p{
-      margin: 3px 0 22px 2px;
-    }
+  .blockstyle{padding: 42px 0;
+      p{margin: 3px 0 22px 2px;}
   }
 
   .blockstylenumverP{
@@ -149,44 +125,67 @@
   }
 
   /*Фото и Видео*/
-  .transparency-bg-img-one{
-    background: $black;
-    width: 1200px;
+  .transparency {
+        .one {
+          margin-top: 319px;
+        }
+        .three{
+          margin-top: 187px;
+        }
+        .transparency-bg-img {
+          background: $black;
+          opacity: 0.52;
+          height: 80px;
+          position: absolute;
+          width: 100%;
+          .info_img {
+            color: $white;
+            .boldfont {
+              font-weight: 900;
+              float: left;
+            }
+            .nouppercase {
+              text-transform: none;
+              float: left;
+              margin-top: 35px;
+              position: absolute;
+            }
+          }
+
+          .like {
+            color: $white;
+            width:110px;
+
+            i {
+              margin-top: 26px;
+              float: left;
+            }
+            p {
+              margin-top: 31px;
+            }
+          }
+        }
+  }
+
+
+
+}
+
+
+  /*transparency-three_block{
+    background: #333333;
     height:80px;
-    opacity: 0.52;
-    margin-top: 319px;
     position: absolute;
 
 
-      .info_img{
-        color: $white;
 
-
-
-        .boldfont{
-          font-weight:900;
-          float: left;
-        }
-        .nouppercase{
-          text-transform:none;
-          float: left;
-          margin-top: 35px;
-          position: absolute;
-        }
-      }
-
-      .like{
-        padding-left: 107px;
-        color: $white;
-
-
-          i {
-            margin-top: 26px;
-            float: left;
-          }
-          p{
-            margin-top: 31px;
-          }
-      }
   }
-}
+  .three_block{
+    opacity: 0.52;
+    margin-top: 187px;
+    width: 400px;
+
+  }*/
+
+
+
