@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * Gridiculous
  *
@@ -515,9 +516,15 @@ nav {
     position: relative;
     top: 187px; }
 
+.pagephoto {
+  background: url(../img/slaider_pagephoto.png);
+  background-repeat: no-repeat;
+  height: 369px; }
+
 .content {
   text-align: center;
-  background-color: white; }
+  background-color: white;
+  /*Фото и Видео*/ }
   .content section {
     margin-top: -17px;
     background-color: #ffffff;
@@ -595,6 +602,12 @@ nav {
     height: 473px;
     background: url(../img/maps.png);
     background-repeat: no-repeat; }
+  .content .transparency-bg-img-one {
+    background: #000000;
+    height: 80px;
+    position: relative;
+    opacity: 0.30;
+    margin-top: 319px; }
 
 footer {
   height: 120px;
@@ -624,6 +637,9 @@ footer {
         margin-right: 82px; }
         footer .bg-footer .copyright a:hover {
           background-color: #669ec0; }
+
+.footerpagephoto {
+  background: #ffffff; }
 
 .popup-form {
   position: absolute;
