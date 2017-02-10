@@ -151,25 +151,42 @@
   /*Фото и Видео*/
   .transparency-bg-img-one{
     background: $black;
-    height: 80px;
-    position: relative;
-    opacity: 0.30;
+    width: 1200px;
+    height:80px;
+    opacity: 0.52;
     margin-top: 319px;
+    position: absolute;
 
 
       .info_img{
-        
+        color: $white;
+
+
+
+        .boldfont{
+          font-weight:900;
+          float: left;
+        }
+        .nouppercase{
+          text-transform:none;
+          float: left;
+          margin-top: 35px;
+          position: absolute;
+        }
       }
 
       .like{
+        padding-left: 107px;
+        color: $white;
 
+
+          i {
+            margin-top: 26px;
+            float: left;
+          }
+          p{
+            margin-top: 31px;
+          }
       }
   }
-
-
-
-
-
-
-
 }
