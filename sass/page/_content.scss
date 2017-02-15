@@ -234,6 +234,36 @@
     }
   }
 
+  /*Форма отзыва*/
+  .form-radiobtn{
+    margin-top: 22px;
+    position: relative;
+
+
+    input[type=radio] {
+      box-sizing: border-box;
+      padding: 0;
+
+    }
+    .radio{
+      display:none;
+    }
+    .radio-label{
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+      position: relative;
+
+
+      &:before{
+        border-radius: 50%;
+      }
+    }
+  }
+
+
 }
 
 
