@@ -166,3 +166,27 @@
 
 }
 
+.rangeslider{
+  width: 65%;
+  margin: 0% -9%;
+  float: left;
+}
+fieldset{width:80%; margin: 20px 62px;border: 0px;
+  input[type='range'] {
+    -webkit-appearance: none;
+    width: 540px;
+    height: 3px;
+    background: #858585;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+    border: 6px solid white;
+    border-radius:15px;
+  }
+
+}
+
+
+
+

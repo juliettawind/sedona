@@ -11,6 +11,7 @@ $gray: #e5e5e5;
 $light-light-black: #b2b2b2;
 $dark-brown: #766357;
 $very-dark-brown: #604e43;
+$very-very-dark-gray: #858585;
 $brown: #666666;
 $black: #000000;
 $light-black: #333333;
@@ -22,14 +23,19 @@ $color-list: (
   'blue'              $blue,
   'dark-blue'         $dark-blue,
   'dark-gray'         $dark-gray,
+  'very-light-gray'   $very-light-gray
   'light-light-gray'  $light-light-gray,
+  'very-dark-gray'    $very-dark-gray,
   'gray'              $gray,
+  'light-light-black' $light-light-black,
   'dark-brown'        $dark-brown,
+  'very-dark-brown'   $very-dark-brown,
+  'very-very-dark-gray' $very-very-dark-gray,
   'brown'             $brown,
   'black'             $black,
   'light-black'       $light-black,
-  'very-light-gray'   $very-light-gray
-  'light-light-black' $light-light-black
+
+
 );
 
 

@@ -169,6 +169,71 @@
     }
   }
 
+  .video{
+    height:500px;
+    background: url(../img/bg-video.png);
+    background-repeat: no-repeat;
+    margin: 0 0 0 16%;
+
+    .transparency-bg-img {
+      background: $black;
+      opacity: 0.52;
+      height: 80px;
+      position: absolute;
+      width: 42%;
+
+
+    }
+    .two{
+      margin-top: 420px;
+
+
+      .replay{
+        height:20px;
+        background: url(../img/replay.png);
+        background-repeat: no-repeat;
+        width: 18px;
+        float: left;
+        margin: 4% 4%;
+
+
+      }
+      .subtitles{
+        height:20px;
+        background: url(../img/subtitles.png);
+        background-repeat: no-repeat;
+        width: 32px;
+        margin: 30px 84%;
+      }
+      .fullscreen{
+        height:20px;
+        background: url(../img/fullscreen.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        margin: -50px 92%;
+        float: none;
+      }
+      /*.video-contols{
+        width: 540px;
+        margin-left: 12%;
+
+        .scale{
+          margin-top: 39px;
+          height: 3px;
+          background: $very-very-dark-gray;
+        }
+        .toggle-min{
+          left: 21px;
+        }
+        .toggle-max{
+          left: 161px;
+
+        }
+      }*/
+
+    }
+  }
+
 }
 
 

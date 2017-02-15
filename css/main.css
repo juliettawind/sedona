@@ -364,14 +364,23 @@ body {
 .border-dark-gray {
   border-color: #444444; }
 
-.light-light-gray {
-  color: #f2f2f2; }
+.very-light-gray {
+  color: #f0f0f0; }
 
-.bg-light-light-gray {
-  background-color: #f2f2f2; }
+.bg-very-light-gray {
+  background-color: #f0f0f0; }
 
-.border-light-light-gray {
-  border-color: #f2f2f2; }
+.border-very-light-gray {
+  border-color: #f0f0f0; }
+
+.very-dark-gray {
+  color: #a9a9a9; }
+
+.bg-very-dark-gray {
+  background-color: #a9a9a9; }
+
+.border-very-dark-gray {
+  border-color: #a9a9a9; }
 
 .gray {
   color: #e5e5e5; }
@@ -382,6 +391,15 @@ body {
 .border-gray {
   border-color: #e5e5e5; }
 
+.light-light-black {
+  color: #b2b2b2; }
+
+.bg-light-light-black {
+  background-color: #b2b2b2; }
+
+.border-light-light-black {
+  border-color: #b2b2b2; }
+
 .dark-brown {
   color: #766357; }
 
@@ -390,6 +408,24 @@ body {
 
 .border-dark-brown {
   border-color: #766357; }
+
+.very-dark-brown {
+  color: #604e43; }
+
+.bg-very-dark-brown {
+  background-color: #604e43; }
+
+.border-very-dark-brown {
+  border-color: #604e43; }
+
+.very-very-dark-gray {
+  color: #858585; }
+
+.bg-very-very-dark-gray {
+  background-color: #858585; }
+
+.border-very-very-dark-gray {
+  border-color: #858585; }
 
 .brown {
   color: #666666; }
@@ -417,15 +453,6 @@ body {
 
 .border-light-black {
   border-color: #333333; }
-
-.very-light-gray {
-  color: #f0f0f0; }
-
-.bg-very-light-gray {
-  background-color: #f0f0f0; }
-
-.border-very-light-gray {
-  border-color: #f0f0f0; }
 
 /*$font-stack: 'PT Sans', sans-serif;*/
 .h2, .h3, .h4 {
@@ -591,7 +618,7 @@ nav {
   .content .blockstyleP {
     padding-top: 5px;
     line-height: 16px;
-    font-family: "open",'Open Sans', sans-serif; }
+    font-family: "open", 'Open Sans', sans-serif; }
   .content .choose-hotel {
     position: relative;
     z-index: 1;
@@ -630,21 +657,57 @@ nav {
         float: left; }
       .content .transparency .transparency-bg-img .like p {
         margin-top: 31px; }
+  .content .video {
+    height: 500px;
+    background: url(../img/bg-video.png);
+    background-repeat: no-repeat;
+    margin: 0 0 0 16%; }
+    .content .video .transparency-bg-img {
+      background: #000000;
+      opacity: 0.52;
+      height: 80px;
+      position: absolute;
+      width: 42%; }
+    .content .video .two {
+      margin-top: 420px;
+      /*.video-contols{
+        width: 540px;
+        margin-left: 12%;
 
-/*transparency-three_block{
-    background: #333333;
-    height:80px;
-    position: absolute;
+        .scale{
+          margin-top: 39px;
+          height: 3px;
+          background: $very-very-dark-gray;
+        }
+        .toggle-min{
+          left: 21px;
+        }
+        .toggle-max{
+          left: 161px;
 
+        }
+      }*/ }
+      .content .video .two .replay {
+        height: 20px;
+        background: url(../img/replay.png);
+        background-repeat: no-repeat;
+        width: 18px;
+        float: left;
+        margin: 4% 4%; }
+      .content .video .two .subtitles {
+        height: 20px;
+        background: url(../img/subtitles.png);
+        background-repeat: no-repeat;
+        width: 32px;
+        margin: 30px 84%; }
+      .content .video .two .fullscreen {
+        height: 20px;
+        background: url(../img/fullscreen.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        margin: -50px 92%;
+        float: none; }
 
-
-  }
-  .three_block{
-    opacity: 0.52;
-    margin-top: 187px;
-    width: 400px;
-
-  }*/
 footer {
   height: 120px;
   background: url(../img/mapsend.png); }
@@ -771,6 +834,26 @@ footer {
   background-color: #f2f2f2; }
   .checkbox:hover {
     background-color: #e5e5e5; }
+
+.rangeslider {
+  width: 65%;
+  margin: 0% -9%;
+  float: left; }
+
+fieldset {
+  width: 80%;
+  margin: 20px 62px;
+  border: 0px; }
+  fieldset input[type='range'] {
+    -webkit-appearance: none;
+    width: 540px;
+    height: 3px;
+    background: #858585; }
+  fieldset input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+    border: 6px solid white;
+    border-radius: 15px; }
 
 .btn {
   width: 568px;
