@@ -559,7 +559,8 @@ nav {
 .content {
   text-align: center;
   background-color: white;
-  /*Фото и Видео*/ }
+  /*Фото и Видео*/
+  /*Форма отзыва*/ }
   .content section {
     margin-top: -17px;
     background-color: #ffffff;
@@ -715,6 +716,23 @@ nav {
         width: 20px;
         margin: -50px 92%;
         float: none; }
+  .content .form-radiobtn {
+    margin-top: 22px;
+    position: relative; }
+    .content .form-radiobtn input[type=radio] {
+      box-sizing: border-box;
+      padding: 0; }
+    .content .form-radiobtn .radio {
+      display: none; }
+    .content .form-radiobtn .radio-label {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+      position: relative; }
+      .content .form-radiobtn .radio-label:before {
+        border-radius: 50%; }
 
 footer {
   height: 120px;
