@@ -548,6 +548,14 @@ nav {
   background-repeat: no-repeat;
   height: 369px; }
 
+.sedona-new {
+  width: 15%;
+  margin: 0 auto;
+  font-size: 103px;
+  position: relative;
+  top: 51px;
+  right: 137px; }
+
 .content {
   text-align: center;
   background-color: white;
@@ -658,7 +666,7 @@ nav {
       .content .transparency .transparency-bg-img .like p {
         margin-top: 31px; }
   .content .video {
-    height: 500px;
+    height: 552px;
     background: url(../img/bg-video.png);
     background-repeat: no-repeat;
     margin: 0 0 0 16%; }
