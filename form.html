@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Ramabhadra" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <!--<script src="js/script.js"></script>-->
-
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/test.js"></script>
 </head>
 <body>
     <div class="grid">
@@ -36,25 +36,94 @@
                 <p class="h4 light-black titleP"> Помогите нашим отелям стать лучше! оставьте отзыв о них,<br>а также о посещениях вами достопримечательностях</p>
             </div>
 
-            <div class="c6">
-                <p class="h3">Ваше общее впечатление:</p>
-                <div class="form-radiobtn">
-                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
-                    <label class="radio-label" for="rating-good">Скорее положительное</label>
+            <div class="formcomment">
+                <div class="c6">
+                    <p class="h3 marginbottomP">Ваше общее впечатление:</p>
+                    <div class="form-radiobtn">
+                        <input class="radio" type="radio" name="rating" id="rating-good" checked="">
+                        <label class="radio-label" for="rating-good">Скорее положительное</label>
+                    </div>
+                    <div class="form-radiobtn">
+                        <input class="radio" type="radio" name="rating" id="rating-bad" checked="">
+                        <label class="radio-label" for="rating-bad">Скорее отрицательное</label>
+                    </div>
+                    <div class="form-radiobtn">
+                        <input class="radio" type="radio" name="rating" id="rating-hard" checked="">
+                        <label class="radio-label" for="rating-hard">Затрудняюсь ответить</label>
+                    </div>
                 </div>
-                <div class="form-radiobtn">
-                    <input class="radio" type="radio" name="rating" id="rating-bad" checked="">
-                    <label class="radio-label" for="rating-bad">Скорее отрицательное</label>
-                </div>
-                <div class="form-radiobtn">
-                    <input class="radio" type="radio" name="rating" id="rating-hard" checked="">
-                    <label class="radio-label" for="rating-hard">Затрудняюсь ответить</label>
+
+
+                <div class="c6 borderleft">
+                    <p class="h3 marginbottomP">Представьтесь, пожалуйста:</p>
+                    <div class="form-user">
+                        <label class="form-label h4" for="name">Имя:</label>
+                        <input class="form-input" type="text" name="name" id="name" placeholder="Петр">
+                    </div>
+                    <div class="form-user">
+                        <label class="form-label h4" for="name">Фамилия:</label>
+                        <input class="form-input" type="text" name="name" id="name" placeholder="Иванов">
+                    </div>
+                    <div class="form-user">
+                        <label class="form-label h4" for="name">Отчество:</label>
+                        <input class="form-input" type="text" name="name" id="name" placeholder="Александрович">
+                    </div>
                 </div>
             </div>
 
-            <div class="c6">
-                <p class="h3">Представьтесь, пожалуйста:</p>
+            <div>
+                <p class="c12 h3">Контактная информация:</p>
+                <div class="c6">
+                    <div class="form-user">
+                        <label class="form-label h4" for="name">Телефон::</label>
+                        <input class="form-input" type="text" name="name" id="name" placeholder="Введите номер">
+                    </div>
+                </div>
+                <div class="c6">
+                    <div class="form-user">
+                        <label class="form-label h4" for="name">Электронная почта:</label>
+                        <input class="form-input" type="text" name="name" id="name" placeholder="Введите e-mail:">
+                    </div>
+                </div>
             </div>
+
+
+            <div class="attraction">
+                <p class="c12 h3">посещенные достопримечательности:</p>
+                <div class="c3 form-radiobtn">
+                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
+                    <label class="radio-label" for="rating-good">Мост Дьявола</label>
+                </div>
+                <div class="c3 form-radiobtn">
+                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
+                    <label class="radio-label" for="rating-good">Гора-Колокол</label>
+                </div>
+                <div class="c3 form-radiobtn">
+                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
+                    <label class="radio-label" for="rating-good">Слайд-парк</label>
+                </div>
+                <div class="c3 form-radiobtn">
+                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
+                    <label class="radio-label" for="rating-good">Красные скалы</label>
+                </div>
+
+
+            </div>
+
+            <div class="emotions">
+                <p class="c12 h3">Опишите свои эмоции:</p>
+
+            </div>
+
+            <div class="send">
+                <a class="">Отправить отзыв</a>
+                <p>* - обязательные поля</p>
+            </div>
+
+
+            </div>
+
+
         </div>
 
 
@@ -65,7 +134,7 @@
 
 
 
-        <!--<footer class="footerpagephoto">
+        <footer class="footerpagephoto">
             <div class="row bg-black bg-footer">
                 <p class="c4 h3 name-footer">#visitsedona</p>
 
@@ -82,7 +151,7 @@
                     </a>
                 </div>
             </div>
-        </footer>-->
+        </footer>
     </div>
 
 </body>

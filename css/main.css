@@ -716,23 +716,59 @@ nav {
         width: 20px;
         margin: -50px 92%;
         float: none; }
-  .content .form-radiobtn {
-    margin-top: 22px;
-    position: relative; }
-    .content .form-radiobtn input[type=radio] {
-      box-sizing: border-box;
-      padding: 0; }
-    .content .form-radiobtn .radio {
-      display: none; }
-    .content .form-radiobtn .radio-label {
-      display: inline-block;
-      vertical-align: middle;
-      font-size: 18px;
-      font-weight: 700;
-      cursor: pointer;
+  .content .formcomment {
+    height: 346px; }
+    .content .formcomment .marginbottomP {
+      margin-bottom: 67px; }
+    .content .formcomment .borderleft {
+      border-left: 1px solid #e5e5e5; }
+    .content .formcomment .form-radiobtn, .content .formcomment .form-user {
+      margin-top: 22px;
       position: relative; }
-      .content .form-radiobtn .radio-label:before {
-        border-radius: 50%; }
+      .content .formcomment .form-radiobtn input[type=radio], .content .formcomment .form-user input[type=radio] {
+        box-sizing: border-box;
+        padding: 0; }
+      .content .formcomment .form-radiobtn .radio, .content .formcomment .form-user .radio {
+        display: none; }
+      .content .formcomment .form-radiobtn .radio-label, .content .formcomment .form-user .radio-label {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+        position: relative; }
+        .content .formcomment .form-radiobtn .radio-label:before, .content .formcomment .form-user .radio-label:before {
+          border-radius: 50%;
+          content: "";
+          display: inline-block;
+          vertical-align: middle;
+          width: 56px;
+          height: 56px;
+          margin-right: 20px;
+          background-color: #f2f2f2;
+          /*&:hover{
+            background-color: $gray;
+          }*/ }
+        .content .formcomment .form-radiobtn .radio-label:after, .content .formcomment .form-user .radio-label:after {
+          width: 22px;
+          height: 22px;
+          background-color: #333333;
+          border-radius: 50%;
+          content: "";
+          position: absolute;
+          top: 33%;
+          left: 17px; }
+      .content .formcomment .form-radiobtn .form-label, .content .formcomment .form-user .form-label {
+        margin: 0 20px;
+        font-weight: 600; }
+      .content .formcomment .form-radiobtn .form-input, .content .formcomment .form-user .form-input {
+        width: 79%;
+        height: 58px;
+        padding: 10px 18px;
+        border: 4px solid #f2f2f2;
+        background-color: #f2f2f2;
+        color: #000;
+        font-weight: 900; }
 
 footer {
   height: 120px;
