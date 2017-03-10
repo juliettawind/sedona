@@ -717,58 +717,216 @@ nav {
         margin: -50px 92%;
         float: none; }
   .content .formcomment {
-    height: 346px; }
+    margin-bottom: 20px;
+    /*input text*/ }
+    .content .formcomment .form-radiobtn {
+      display: inline-block;
+      width: 70%;
+      height: 210px;
+      text-align: left;
+      vertical-align: top;
+      /* Hover and focus states */
+      /* Checked state */
+      /* Hover state whilst checked */
+      /* Show check mark */ }
+      .content .formcomment .form-radiobtn .control {
+        font-size: 18px;
+        position: relative;
+        display: block;
+        margin-bottom: 25px;
+        padding-left: 15px;
+        cursor: pointer;
+        line-height: 56px; }
+        .content .formcomment .form-radiobtn .control input {
+          position: absolute;
+          z-index: -1;
+          opacity: 0; }
+        .content .formcomment .form-radiobtn .control .control-indicator {
+          position: absolute;
+          top: 0px;
+          right: 100%;
+          width: 54px;
+          height: 54px;
+          background: #e6e6e6;
+          border-radius: 50%;
+          /* Check mark */ }
+          .content .formcomment .form-radiobtn .control .control-indicator:after {
+            position: absolute;
+            display: none;
+            content: '';
+            top: 17px;
+            left: 17px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: black; }
+      .content .formcomment .form-radiobtn .control:hover input ~ .control-indicator,
+      .content .formcomment .form-radiobtn .control input:focus ~ .control-indicator {
+        background: #ccc; }
+      .content .formcomment .form-radiobtn .control input:checked ~ .control-indicator {
+        background: #f2f2f2; }
+      .content .formcomment .form-radiobtn .control:hover input:not([disabled]):checked ~ .control-indicator,
+      .content .formcomment .form-radiobtn .control input:checked:focus ~ .control-indicator {
+        background: #e5e5e5; }
+      .content .formcomment .form-radiobtn .control input:checked ~ .control-indicator:after {
+        display: block; }
     .content .formcomment .marginbottomP {
       margin-bottom: 67px; }
     .content .formcomment .borderleft {
       border-left: 1px solid #e5e5e5; }
-    .content .formcomment .form-radiobtn, .content .formcomment .form-user {
+    .content .formcomment .form-user {
       margin-top: 22px;
       position: relative; }
-      .content .formcomment .form-radiobtn input[type=radio], .content .formcomment .form-user input[type=radio] {
-        box-sizing: border-box;
-        padding: 0; }
-      .content .formcomment .form-radiobtn .radio, .content .formcomment .form-user .radio {
-        display: none; }
-      .content .formcomment .form-radiobtn .radio-label, .content .formcomment .form-user .radio-label {
-        display: inline-block;
-        vertical-align: middle;
-        font-size: 18px;
-        font-weight: 700;
-        cursor: pointer;
-        position: relative; }
-        .content .formcomment .form-radiobtn .radio-label:before, .content .formcomment .form-user .radio-label:before {
-          border-radius: 50%;
-          content: "";
-          display: inline-block;
-          vertical-align: middle;
-          width: 56px;
-          height: 56px;
-          margin-right: 20px;
-          background-color: #f2f2f2;
-          /*&:hover{
-            background-color: $gray;
-          }*/ }
-        .content .formcomment .form-radiobtn .radio-label:after, .content .formcomment .form-user .radio-label:after {
-          width: 22px;
-          height: 22px;
-          background-color: #333333;
-          border-radius: 50%;
-          content: "";
-          position: absolute;
-          top: 33%;
-          left: 17px; }
-      .content .formcomment .form-radiobtn .form-label, .content .formcomment .form-user .form-label {
-        margin: 0 20px;
-        font-weight: 600; }
-      .content .formcomment .form-radiobtn .form-input, .content .formcomment .form-user .form-input {
-        width: 79%;
+      .content .formcomment .form-user .form-label {
+        margin: 0 15px; }
+      .content .formcomment .form-user .form-input {
+        width: 48%;
         height: 58px;
         padding: 10px 18px;
         border: 4px solid #f2f2f2;
         background-color: #f2f2f2;
         color: #000;
         font-weight: 900; }
+      .content .formcomment .form-user .inputwidth {
+        width: 41%; }
+  .content .attraction {
+    height: 160px; }
+    .content .attraction .form-checkbox {
+      display: inline-block;
+      vertical-align: top;
+      background: #fff;
+      text-align: left;
+      height: 210px; }
+      .content .attraction .form-checkbox .control {
+        font-size: 18px;
+        position: relative;
+        display: block;
+        margin-bottom: 25px;
+        padding-left: 116px;
+        padding-top: 12px;
+        cursor: pointer; }
+        .content .attraction .form-checkbox .control input {
+          position: absolute;
+          z-index: -1;
+          opacity: 0; }
+        .content .attraction .form-checkbox .control .control-indicat {
+          position: absolute;
+          top: 0px;
+          left: 39px;
+          width: 54px;
+          height: 54px;
+          background: #e6e6e6;
+          border-radius: 10%; }
+          .content .attraction .form-checkbox .control .control-indicat:after {
+            content: '';
+            position: absolute;
+            display: none;
+            left: 18px;
+            top: 14px;
+            width: 13px;
+            height: 18px;
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg); }
+      .content .attraction .form-checkbox .control:hover input ~ .control-indicat,
+      .content .attraction .form-checkbox .control input:focus ~ .control-indicat {
+        background: #ccc; }
+      .content .attraction .form-checkbox .control input:checked ~ .control-indicat {
+        background: #f2f2f2; }
+      .content .attraction .form-checkbox .control:hover input:not([disabled]):checked ~ .control-indicat,
+      .content .attraction .form-checkbox .control input:checked:focus ~ .control-indicat {
+        background: #e5e5e5; }
+      .content .attraction .form-checkbox .control input:checked ~ .control-indicat:after {
+        display: block; }
+  .content .contacts, .content .attraction, .content .emotions {
+    margin: 0 auto;
+    overflow: hidden;
+    /*.line {
+        border: 1px solid #e5e5e5;
+        margin: 32px 0;
+        width: 25%;
+        margin-left: 3%;
+        margin-right: 4%;
+
+      }*/ }
+    .content .contacts .form-tel, .content .contacts .form-email, .content .attraction .form-tel, .content .attraction .form-email, .content .emotions .form-tel, .content .emotions .form-email {
+      margin-top: 22px;
+      position: relative; }
+      .content .contacts .form-tel .form-label, .content .contacts .form-email .form-label, .content .attraction .form-tel .form-label, .content .attraction .form-email .form-label, .content .emotions .form-tel .form-label, .content .emotions .form-email .form-label {
+        float: left;
+        MARGIN: 0 AUTO; }
+      .content .contacts .form-tel .form-input, .content .contacts .form-email .form-input, .content .attraction .form-tel .form-input, .content .attraction .form-email .form-input, .content .emotions .form-tel .form-input, .content .emotions .form-email .form-input {
+        width: 100%;
+        height: 58px;
+        padding: 10px 18px;
+        border: 4px solid #f2f2f2;
+        background-color: #f2f2f2;
+        color: #000;
+        font-weight: 900; }
+        .content .contacts .form-tel .form-input:after, .content .contacts .form-email .form-input:after, .content .attraction .form-tel .form-input:after, .content .attraction .form-email .form-input:after, .content .emotions .form-tel .form-input:after, .content .emotions .form-email .form-input:after {
+          background-color: #e6e6e6;
+          background: url(../img/phone.jpg);
+          background-repeat: no-repeat; }
+    .content .contacts p, .content .attraction p, .content .emotions p {
+      position: relative;
+      /*width: 400px;
+      margin: 0 auto;
+      padding: 0 60px;
+      font-size: 21px;
+      text-align: center;
+      background-color: #fff;
+      z-index: 2;
+      box-sizing: border-box;*/ }
+      .content .contacts p:before, .content .attraction p:before, .content .emotions p:before {
+        display: block;
+        width: 100%;
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #dbdbdb;
+        top: 50%;
+        right: 110px;
+        /*content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #dbdbdb;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;*/ }
+      .content .contacts p:after, .content .attraction p:after, .content .emotions p:after {
+        display: block;
+        width: 100%;
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #dbdbdb;
+        top: 50%;
+        left: 110px;
+        /*content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #dbdbdb;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;*/ }
+    .content .contacts textarea, .content .attraction textarea, .content .emotions textarea {
+      height: 160px;
+      margin-top: 20px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      display: block;
+      width: 100%;
+      border: 4px solid #f2f2f2;
+      background-color: #f2f2f2;
+      color: #000; }
+  .content .send {
+    margin-top: 55px; }
+    .content .send p {
+      display: block;
+      color: #333;
+      text-align: right; }
 
 footer {
   height: 120px;
@@ -952,6 +1110,6 @@ fieldset {
   background-color: #81b3d2;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 54px; }
+  /*margin-top: 54px;*/ }
   .btn-search:hover {
     background-color: #669ec0; }

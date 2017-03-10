@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/test.js"></script>
+    <script src="js/closures.js"></script>
 </head>
 <body>
     <div class="grid">
@@ -31,108 +31,111 @@
         </header>
 
         <div class="content">
-            <div class="row bg-white">
-                <p class="h2 black title">Оставьте свой отзыв</p>
-                <p class="h4 light-black titleP"> Помогите нашим отелям стать лучше! оставьте отзыв о них,<br>а также о посещениях вами достопримечательностях</p>
+            <div class="grid w960">
+                <div class="row bg-white">
+                    <p class="h2 black title">Оставьте свой отзыв</p>
+                    <p class="h4 light-black titleP"> Помогите нашим отелям стать лучше! оставьте отзыв о них,<br>а также о посещениях вами достопримечательностях</p>
+                </div>
+
+                <div class="row formcomment">
+                    <div class="c6">
+                        <p class="h3 marginbottomP">Ваше общее впечатление:</p>
+                        <div class="form-radiobtn">
+                            <label class="control radio-label">Скорее положительное
+                                <input class="radio" type="radio" name="rating" checked="checked">
+                                <div class="control-indicator"></div>
+                            </label>
+
+                            <label class="control radio-label">Скорее отрицательное
+                                <input class="radio" type="radio" name="rating" >
+                                <div class="control-indicator"></div>
+                            </label>
+
+                            <label class="control radio-label">Затрудняюсь ответить
+                                <input class="radio" type="radio" name="rating" >
+                                <div class="control-indicator"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="c6 borderleft">
+                        <p class="h3 marginbottomP">Представьтесь, пожалуйста:</p>
+                        <div class="form-user">
+                            <label class="form-label h4" for="name">Имя:</label>
+                            <input class="form-input" type="text" name="name" id="name" placeholder="Петр">
+                        </div>
+                        <div class="form-user">
+                            <label class="form-label h4" for="surname">Фамилия:</label>
+                            <input class="form-input inputwidth" type="text" name="surname" id="surname" placeholder="Иванов">
+                        </div>
+                        <div class="form-user">
+                            <label class="form-label h4" for="patronymic">Отчество:</label>
+                            <input class="form-input inputwidth" type="text" name="patronymic" id="patronymic" placeholder="Александрович">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contacts">
+                    <div class="row">
+                        <p class="h3">Контактная информация:</p>
+                    </div>
+                    <div class="row">
+                        <div class="c6 form-tel">
+                            <label class="form-label h4" for="tel">Телефон:</label>
+                            <input class="form-input" type="tel" name="tel" id="tel" placeholder="Введите номер">
+                        </div>
+                        <div class="c6 form-email">
+                            <label class="form-label h4" for="email">Электронная почта:</label>
+                            <input class="form-input" type="text" name="email" id="email" placeholder="Введите e-mail:">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="attraction">
+                    <p class="h3">посещенные достопримечательности:</p>
+                    <div class="row form-checkbox">
+                        <div class="c3 nopadding">
+                            <label class="control checkbox-label">Мост дьявола
+                                <input type="checkbox"/>
+                                <div class="control-indicat"></div>
+                            </label>
+                        </div>
+                        <div class="c3 nopadding">
+                            <label class="control checkbox-label">Гора-Колокол
+                                <input type="checkbox"/>
+                                <div class="control-indicat"></div>
+                            </label>
+                        </div>
+                        <div class="c3 nopadding">
+                            <label class="control checkbox-label">Слайд-парк
+                                <input type="checkbox"/>
+                                <div class="control-indicat"></div>
+                            </label>
+                        </div>
+                        <div class="c3 nopadding">
+                            <label class="control checkbox-label">Красные скалы
+                                <input type="checkbox"/>
+                                <div class="control-indicat"></div>
+                            </label>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="emotions">
+                    <p class="h3">Опишите свои эмоции:</p>
+                    <textarea placeholder="Опишите подробно все свои восторги"></textarea>
+
+                </div>
+
+                <div class="row send">
+                    <input class="btn-search h3 c6" type="button" value="Отправить отзыв">
+                    <p class="c6 h4">* - обязательные поля</p>
+                </div>
             </div>
-
-            <div class="formcomment">
-                <div class="c6">
-                    <p class="h3 marginbottomP">Ваше общее впечатление:</p>
-                    <div class="form-radiobtn">
-                        <input class="radio" type="radio" name="rating" id="rating-good" checked="">
-                        <label class="radio-label" for="rating-good">Скорее положительное</label>
-                    </div>
-                    <div class="form-radiobtn">
-                        <input class="radio" type="radio" name="rating" id="rating-bad" checked="">
-                        <label class="radio-label" for="rating-bad">Скорее отрицательное</label>
-                    </div>
-                    <div class="form-radiobtn">
-                        <input class="radio" type="radio" name="rating" id="rating-hard" checked="">
-                        <label class="radio-label" for="rating-hard">Затрудняюсь ответить</label>
-                    </div>
-                </div>
-
-
-                <div class="c6 borderleft">
-                    <p class="h3 marginbottomP">Представьтесь, пожалуйста:</p>
-                    <div class="form-user">
-                        <label class="form-label h4" for="name">Имя:</label>
-                        <input class="form-input" type="text" name="name" id="name" placeholder="Петр">
-                    </div>
-                    <div class="form-user">
-                        <label class="form-label h4" for="name">Фамилия:</label>
-                        <input class="form-input" type="text" name="name" id="name" placeholder="Иванов">
-                    </div>
-                    <div class="form-user">
-                        <label class="form-label h4" for="name">Отчество:</label>
-                        <input class="form-input" type="text" name="name" id="name" placeholder="Александрович">
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <p class="c12 h3">Контактная информация:</p>
-                <div class="c6">
-                    <div class="form-user">
-                        <label class="form-label h4" for="name">Телефон::</label>
-                        <input class="form-input" type="text" name="name" id="name" placeholder="Введите номер">
-                    </div>
-                </div>
-                <div class="c6">
-                    <div class="form-user">
-                        <label class="form-label h4" for="name">Электронная почта:</label>
-                        <input class="form-input" type="text" name="name" id="name" placeholder="Введите e-mail:">
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="attraction">
-                <p class="c12 h3">посещенные достопримечательности:</p>
-                <div class="c3 form-radiobtn">
-                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
-                    <label class="radio-label" for="rating-good">Мост Дьявола</label>
-                </div>
-                <div class="c3 form-radiobtn">
-                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
-                    <label class="radio-label" for="rating-good">Гора-Колокол</label>
-                </div>
-                <div class="c3 form-radiobtn">
-                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
-                    <label class="radio-label" for="rating-good">Слайд-парк</label>
-                </div>
-                <div class="c3 form-radiobtn">
-                    <input class="radio" type="radio" name="rating" id="rating-good" checked="">
-                    <label class="radio-label" for="rating-good">Красные скалы</label>
-                </div>
-
-
-            </div>
-
-            <div class="emotions">
-                <p class="c12 h3">Опишите свои эмоции:</p>
-
-            </div>
-
-            <div class="send">
-                <a class="">Отправить отзыв</a>
-                <p>* - обязательные поля</p>
-            </div>
-
-
-            </div>
-
-
         </div>
-
-
-
-
-
-
-
-
 
         <footer class="footerpagephoto">
             <div class="row bg-black bg-footer">
@@ -153,6 +156,5 @@
             </div>
         </footer>
     </div>
-
 </body>
 </html>
